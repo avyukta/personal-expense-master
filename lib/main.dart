@@ -96,7 +96,8 @@ class _MyHomePageState extends State<MyHomePage> {
     final mediaQuery = MediaQuery.of(context);
     final appBar = AppBar(
       title: Text(
-        "Personal Expenses",
+        "Personal Expenses",style: TextStyle(fontSize: 24,fontWeight: FontWeight.bold ,color: Colors.white
+        ),
       ),
       actions: <Widget>[
         IconButton(

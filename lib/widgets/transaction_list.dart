@@ -51,7 +51,7 @@ class TransactionList extends StatelessWidget {
                           padding: EdgeInsets.all(10),
                           child: FittedBox(
                             child: Text(
-                              '\$${transaction[index].amount}',
+                              '\₹${transaction[index].amount}',
                               style: TextStyle(
                                   color: Colors.white,
                                   fontWeight: FontWeight.bold),
